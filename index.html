@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJmilk - นมโคแท้ 100% หอม มัน อร่อย ต้มสดใหม่ทุกวัน</title>
+    <meta name="description" content="ร้าน MJmilk คาเฟ่นมสดสุดชิลสำหรับวัยรุ่น บริการนมโคแท้นมต้มสดใหม่ทุกวัน ขนมปังปิ้งเตาถ่าน สังขยาสูตรโบราณ สั่งเดลิเวอรีส่งตรงถึงบ้านคุณ">
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo-wrapper">
+                <img src="./logo.png" alt="MJmilk Logo" class="logo-img">
+                <span class="brand-name">MJ<span>milk</span></span>
+            </a>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li>
+                    <a href="#" class="nav-link active">
+                        <span class="lang-th">หน้าแรก</span>
+                        <span class="lang-en">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#highlights" class="nav-link">
+                        <span class="lang-th">ทำไมต้อง MJmilk</span>
+                        <span class="lang-en">Why MJmilk</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#menu" class="nav-link">
+                        <span class="lang-th">เมนูแนะนำ</span>
+                        <span class="lang-en">Menu</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#vibe" class="nav-link">
+                        <span class="lang-th">บรรยากาศร้าน</span>
+                        <span class="lang-en">Vibes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#footer" class="nav-link">
+                        <span class="lang-th">ติดต่อเรา</span>
+                        <span class="lang-en">Contact</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#order-delivery" class="nav-cta">
+                        <span class="lang-th">สั่งเดลิเวอรี</span>
+                        <span class="lang-en">Order Delivery</span>
+                    </a>
+                </li>
+                <!-- Language Switcher in Menu -->
+                <li>
+                    <div class="lang-switch">
+                        <button class="lang-btn active" data-lang="th">TH</button>
+                        <span class="lang-divider">|</span>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Background blobs -->
+        <div class="blob-decor blob-1"></div>
+        <div class="blob-decor blob-2"></div>
+        
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <img src="./logo.png" alt="MJmilk Logo" class="hero-logo-large">
+                <h1 class="hero-title">MJ<span>milk</span></h1>
+                
+                <p class="hero-description">
+                    <span class="lang-th">
+                        🥛 นมโคแท้ 100% หอม มัน อร่อย ต้มสดใหม่ทุกวัน 
+                        จับคู่กับขนมปังปิ้งร้อนๆ หอมเนยยั่วๆ พร้อมเสิร์ฟความฟินจาก MJmilk ถึงหน้าบ้านคุณแล้ววันนี้!
+                    </span>
+                    <span class="lang-en">
+                        🥛 100% Real fresh cow's milk, boiled fresh daily. 
+                        Paired with crispy, charcoal-grilled toast. Ready to serve deliciousness from MJmilk directly to your doorstep!
+                    </span>
+                </p>
+                
+                <div id="order-delivery">
+                    <h3 class="hero-cta-title">
+                        <i class="fa-solid fa-heart"></i>
+                        <span class="lang-th">สั่งเดลิเวอรีผ่านแอปโปรดของคุณ</span>
+                        <span class="lang-en">Order delivery via your favorite apps</span>
+                    </h3>
+                    
+                    <div class="delivery-grid">
+                        <!-- GrabFood -->
+                        <a href="https://grab.com" target="_blank" rel="noopener noreferrer" class="delivery-btn grab">
+                            <svg viewBox="0 0 100 35" fill="currentColor" style="height: 24px;">
+                                <path d="M12 28c8.8 0 12-6 12-11S20.8 6 12 6c-8.8 0-12 6-12 11s3.2 11 12 11zm0-4.5c-5.5 0-7.5-3.5-7.5-6.5S6.5 10.5 12 10.5s7.5 3.5 7.5 6.5-2 6.5-7.5 6.5zM38 12c-3.5 0-5 2-5 5v10h-4.5V6.5H33v2.2c1.2-1.8 3-2.7 5-2.7V12zm13 15V6.5h4.5v5.8c1.2-4 4.5-5.8 8.5-5.8v4.5c-4.8 0-7.8 2.5-8.5 7V27H51zm21.5 0c-4 0-6.8-2.5-6.8-6.5h18.2c0-5-3.5-8.5-9.2-8.5-6.2 0-9.8 4-9.8 9.5s3.6 9.5 9.8 9.5c4 0 7.2-1.8 8.5-4.5h-4.8c-.8 1.5-2.2 2-5.7 2zm-2.2-10c2.8 0 4.5 1.5 4.8 3.5H66.8c.2-2 2-3.5 4-3.5z" fill="#FFF"/>
+                            </svg>
+                            <span>GrabFood</span>
+                        </a>
+                        
+                        <!-- LINE MAN -->
+                        <a href="https://lineman.line.me" target="_blank" rel="noopener noreferrer" class="delivery-btn lineman">
+                            <svg viewBox="0 0 100 35" fill="currentColor" style="height: 24px;">
+                                <path d="M10 25h10v3H7V7h3v18zm17-18v21h-3V7h3zm12.5 12.8L47 28h-3.8l-7.8-12.8V28h-3V7h3l7.8 12.8V7h3v21h-.5zm14-12.8h11v3H56.5v6H66v3h-9.5v6H68v3H53.5V7zM80 7h4v15.2L94.5 7h4.5L90.8 19.8 100 28h-4.8l-7.8-7V28h-3V7h-4.4z" fill="#FFF"/>
+                            </svg>
+                            <span>LINE MAN</span>
+                        </a>
+                        
+                        <!-- Robinhood -->
+                        <a href="https://www.robinhood.in.th" target="_blank" rel="noopener noreferrer" class="delivery-btn robinhood">
+                            <i class="fa-solid fa-motorcycle" style="font-size: 1.5rem;"></i>
+                            <span>Robinhood</span>
+                        </a>
+                        
+                        <!-- ShopeeFood -->
+                        <a href="https://shopee.co.th/food" target="_blank" rel="noopener noreferrer" class="delivery-btn shopeefood">
+                            <i class="fa-solid fa-bowl-food" style="font-size: 1.5rem;"></i>
+                            <span>ShopeeFood</span>
+                        </a>
+
+                        <!-- Facebook Page -->
+                        <a href="https://web.facebook.com/premnomsod" target="_blank" rel="noopener noreferrer" class="delivery-btn facebook">
+                            <i class="fa-brands fa-facebook" style="font-size: 1.5rem;"></i>
+                            <span>Facebook Page</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrapper">
+                <!-- Highlight signature product for main image -->
+                <img src="./เมนูร้าน/492412841_2527023350970345_4918805182070823305_n.jpg" alt="เมนูนมสด MJmilk" class="hero-main-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Selling Points Section -->
+    <section class="highlights section-padding" id="highlights">
+        <div class="container">
+            <div class="text-center">
+                <span class="badge">
+                    <span class="lang-th">ทำไมต้องเลือกเรา</span>
+                    <span class="lang-en">WHY CHOOSE US</span>
+                </span>
+                
+                <h2 class="section-title">
+                    <span class="lang-th">ความพิเศษของ <span>MJmilk</span></span>
+                    <span class="lang-en">Uniqueness of <span>MJmilk</span></span>
+                </h2>
+                
+                <p class="section-subtitle">
+                    <span class="lang-th">เราใส่ใจในทุกรายละเอียด ตั้งแต่คัดสรรวัตถุดิบจนถึงบรรยากาศในร้านเพื่อให้ทุกๆ แก้วคือช่วงเวลาพิเศษของคุณ</span>
+                    <span class="lang-en">We care about every detail, from raw materials to the warm shop atmosphere, to make every cup your special moment.</span>
+                </p>
+            </div>
+            
+            <div class="highlights-grid">
+                <!-- Quality Card -->
+                <div class="highlight-card">
+                    <div class="highlight-icon-box">
+                        <i class="fa-solid fa-cow"></i>
+                    </div>
+                    <h3 class="highlight-title">
+                        <span class="lang-th">นมโคแท้ 100% หอมมัน</span>
+                        <span class="lang-en">100% Real Fresh Milk</span>
+                    </h3>
+                    <p class="highlight-desc">
+                        <span class="lang-th">ต้มสดใหม่ทุกวันโดยควบคุมอุณหภูมิที่เหมาะสม เพื่อให้คงคุณค่าสารอาหาร รสชาตินมเข้มข้น หอมมันกลมกล่อมตามแบบฉบับ MJmilk</span>
+                        <span class="lang-en">Freshly boiled daily at optimal temperatures to retain nutrients. Creamy, rich, and delicious milk in signature MJmilk style.</span>
+                    </p>
+                </div>
+                
+                <!-- Atmosphere Card -->
+                <div class="highlight-card">
+                    <div class="highlight-icon-box">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <h3 class="highlight-title">
+                        <span class="lang-th">แหล่งแฮงก์เอาต์สุดชิล</span>
+                        <span class="lang-en">Cozy Hangout Spot</span>
+                    </h3>
+                    <p class="highlight-desc">
+                        <span class="lang-th">บรรยากาศสบายๆ สไตล์มินิมอลอบอุ่น เหมาะกับการมานั่งพักผ่อนหลังเลิกเรียนหรือทำงาน เม้าท์มอยกับเพื่อนฝูงในราคามิตรภาพ</span>
+                        <span class="lang-en">Relaxing and warm minimalist vibe. Perfect for hanging out with friends after school or work at friendly prices.</span>
+                    </p>
+                </div>
+                
+                <!-- Toast & Buns Card -->
+                <div class="highlight-card">
+                    <div class="highlight-icon-box">
+                        <i class="fa-solid fa-bread-slice"></i>
+                    </div>
+                    <h3 class="highlight-title">
+                        <span class="lang-th">ปังปิ้งเตาถ่านหอมกรุ่น</span>
+                        <span class="lang-en">Charcoal-Grilled Toast</span>
+                    </h3>
+                    <p class="highlight-desc">
+                        <span class="lang-th">ขนมปังย่างเตาถ่านแท้ๆ ผิวนอกกรอบเนื้อในนุ่ม ราดด้วยสังขยาใบเตยสูตรโบราณกวนเองหวานน้อย หรือเนยนมเยิ้มๆ สุดฟิน</span>
+                        <span class="lang-en">Authentic charcoal-grilled bread. Crispy on the outside, soft on the inside. Topped with low-sweetness homemade egg custard or sweet milk.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Showcase Section -->
+    <section class="menu section-padding" id="menu">
+        <div class="container">
+            <div class="text-center">
+                <span class="badge">
+                    <span class="lang-th">เมนูยอดนิยม</span>
+                    <span class="lang-en">BEST SELLER</span>
+                </span>
+                <h2 class="section-title">
+                    <span class="lang-th">เมนูแนะนำ <span>ชวนลอง</span></span>
+                    <span class="lang-en">Recommended <span>Menus</span></span>
+                </h2>
+                <p class="section-subtitle">
+                    <span class="lang-th">คัดมาเน้นๆ กับเมนูจริงประจำร้าน ทั้งเครื่องดื่มนมสด ขนมปังปิ้งเตาถ่าน และของทานเล่นสุดอร่อย</span>
+                    <span class="lang-en">Selected bestselling items from our shop including fresh milk drinks, charcoal toasts, and delicious snacks.</span>
+                </p>
+            </div>
+            
+            <!-- Category Filter Buttons -->
+            <div class="menu-filter-container">
+                <button class="filter-btn active" data-filter="all">
+                    <span class="lang-th">ทั้งหมด</span>
+                    <span class="lang-en">All</span>
+                </button>
+                <button class="filter-btn" data-filter="drinks">
+                    <span class="lang-th">เครื่องดื่มนมสด</span>
+                    <span class="lang-en">Fresh Milk</span>
+                </button>
+                <button class="filter-btn" data-filter="toasts">
+                    <span class="lang-th">ขนมปังปิ้ง/นึ่ง</span>
+                    <span class="lang-en">Toast & Bread</span>
+                </button>
+                <button class="filter-btn" data-filter="desserts">
+                    <span class="lang-th">ของทานเล่น & ของหวาน</span>
+                    <span class="lang-en">Snacks & Desserts</span>
+                </button>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Item 1: Toast with Chocolate Sauce -->
+                <div class="menu-card" data-category="toasts">
+                    <div class="menu-img-box">
+                        <img src="./เมนูร้าน/44318093_775478239458207_3282462492936110080_n.jpg" alt="ปังปิ้งราดช็อกโกแลตเข้มข้น" class="menu-img">
+                        <div class="menu-img-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-info">
+                        <div>
+                            <h4 class="menu-name">
+                                <span class="lang-th">ปังปิ้งราดช็อกโกแลตเข้มข้น</span>
+                                <span class="lang-en">Toast with Rich Chocolate Sauce</span>
+                            </h4>
+                            <p class="menu-desc">
+                                <span class="lang-th">ขนมปังย่างเตาถ่านกรอบนอกนุ่มใน ราดซอสช็อกโกแลตเข้มข้นเน้นๆ ชุ่มฉ่ำสะใจคนรักช็อกโกแลต</span>
+                                <span class="lang-en">Charcoal-grilled toast, crispy outside and soft inside. Drizzled with rich chocolate sauce.</span>
+                            </p>
+                        </div>
+                        <div class="menu-footer">
+                            <span class="menu-price">฿30</span>
+                            <span class="menu-tag">
+                                <span class="lang-th">ยอดนิยม</span>
+                                <span class="lang-en">Popular</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2: Chicken Nuggets & Wontons -->
+                <div class="menu-card" data-category="desserts">
+                    <div class="menu-img-box">
+                        <img src="./เมนูร้าน/44342331_775477832791581_5534039281854578688_n.jpg" alt="นักเก็ตไก่และเกี๊ยวกรอบทอด" class="menu-img">
+                        <div class="menu-img-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-info">
+                        <div>
+                            <h4 class="menu-name">
+                                <span class="lang-th">นักเก็ตไก่และเกี๊ยวกรอบทอด</span>
+                                <span class="lang-en">Fried Chicken Nuggets & Wontons</span>
+                            </h4>
+                            <p class="menu-desc">
+                                <span class="lang-th">นักเก็ตไก่และเกี๊ยวห่อหมูทอดกรอบสีเหลืองทอง ทอดใหม่ร้อนๆ จิ้มน้ำจิ้มบ๊วยหรือซอสมะเขือเทศทานคู่กัน</span>
+                                <span class="lang-en">Golden crispy chicken nuggets and pork wontons, freshly fried. Served with sweet plum sauce or ketchup.</span>
+                            </p>
+                        </div>
+                        <div class="menu-footer">
+                            <span class="menu-price">฿49</span>
+                            <span class="menu-tag">
+                                <span class="lang-th">ของทานเล่น</span>
+                                <span class="lang-en">Snacks</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3: Hot Milk & Butter Custard Toast Set -->
+                <div class="menu-card" data-category="drinks">
+                    <div class="menu-img-box">
+                        <img src="./เมนูร้าน/492412841_2527023350970345_4918805182070823305_n.jpg" alt="ชุดคู่ฟิน นมสดร้อนและปังปิ้งเนยสังขยา" class="menu-img">
+                        <div class="menu-img-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-info">
+                        <div>
+                            <h4 class="menu-name">
+                                <span class="lang-th">ชุดคู่ฟิน นมสดร้อนและปังปิ้งเนยสังขยา</span>
+                                <span class="lang-en">Hot Milk & Butter Custard Toast Set</span>
+                            </h4>
+                            <p class="menu-desc">
+                                <span class="lang-th">นมสดร้อนๆ เสิร์ฟคู่กับขนมปังปิ้งเตาถ่านทาเนยสังขยาเยิ้มๆ รสชาติหวานมันลงตัวตามสูตรเฉพาะของร้าน</span>
+                                <span class="lang-en">Warm fresh milk served with charcoal toast topped with butter and homemade sweet egg custard.</span>
+                            </p>
+                        </div>
+                        <div class="menu-footer">
+                            <span class="menu-price">฿60</span>
+                            <span class="menu-tag">
+                                <span class="lang-th">ซิกเนเจอร์</span>
+                                <span class="lang-en">Signature</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4: Cocoa Shaved Ice & Toast Set -->
+                <div class="menu-card" data-category="desserts">
+                    <div class="menu-img-box">
+                        <img src="./เมนูร้าน/492846847_2529634777375869_7035050521733813971_n.jpg" alt="ชุดปังเย็นนมสดโกโก้และขนมปังเนยนม" class="menu-img">
+                        <div class="menu-img-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-info">
+                        <div>
+                            <h4 class="menu-name">
+                                <span class="lang-th">ชุดปังเย็นนมสดโกโก้และขนมปังเนยนม</span>
+                                <span class="lang-en">Cocoa Shaved Ice & Toast Set</span>
+                            </h4>
+                            <p class="menu-desc">
+                                <span class="lang-th">ปังเย็นโกโก้เข้มข้นท็อปปิ้งล้นจาน ทานคู่กับขนมปังปิ้งราดเนยนมข้นหวานฉ่ำ ดับร้อนพร้อมฟินในจานเดียว</span>
+                                <span class="lang-en">Rich cocoa shaved ice with cornflakes and wafers. Served with sweet butter toast.</span>
+                            </p>
+                        </div>
+                        <div class="menu-footer">
+                            <span class="menu-price">฿89</span>
+                            <span class="menu-tag">
+                                <span class="lang-th">เมนูแนะนำ</span>
+                                <span class="lang-en">Recommended</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5: French Fries & Steamed Custard Bun Combo -->
+                <div class="menu-card" data-category="desserts">
+                    <div class="menu-img-box">
+                        <img src="./เมนูร้าน/492942909_2528367987502548_811911000064678643_n.jpg" alt="ชุดแชร์ฟิน เฟรนช์ฟรายส์และปังนึ่งสังขยา" class="menu-img">
+                        <div class="menu-img-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-info">
+                        <div>
+                            <h4 class="menu-name">
+                                <span class="lang-th">ชุดแชร์ฟิน เฟรนช์ฟรายส์และปังนึ่งสังขยา</span>
+                                <span class="lang-en">French Fries & Steamed Custard Combo</span>
+                            </h4>
+                            <p class="menu-desc">
+                                <span class="lang-th">เฟรนช์ฟรายส์ทอดร้อนๆ กรอบนอกนุ่มใน เสิร์ฟคู่ขนมปังนึ่งสังขยาใบเตยหวานน้อย เหมาะสำหรับสั่งมาทานเล่นแชร์กับเพื่อนๆ</span>
+                                <span class="lang-en">Crispy French fries served with warm steamed bread and pandan egg custard. Perfect for sharing.</span>
+                            </p>
+                        </div>
+                        <div class="menu-footer">
+                            <span class="menu-price">฿79</span>
+                            <span class="menu-tag">
+                                <span class="lang-th">ชุดสุดคุ้ม</span>
+                                <span class="lang-en">Value Set</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6: Signature Pink Milk -->
+                <div class="menu-card" data-category="drinks">
+                    <div class="menu-img-box">
+                        <img src="./เมนูร้าน/493473120_2528534147485932_1438962868243656304_n.jpg" alt="นมชมพูเย็นสูตรหวานละมุน" class="menu-img">
+                        <div class="menu-img-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-info">
+                        <div>
+                            <h4 class="menu-name">
+                                <span class="lang-th">นมชมพูเย็นสูตรหวานละมุน</span>
+                                <span class="lang-en">Signature Iced Pink Milk</span>
+                            </h4>
+                            <p class="menu-desc">
+                                <span class="lang-th">นมสดเย็นผสมไซรัปสตรอว์เบอร์รี่สูตรพิเศษ หอม มัน หวานกลมกล่อมลงตัว เสิร์ฟในแก้วเหยือกอันเป็นเอกลักษณ์</span>
+                                <span class="lang-en">Fresh cold milk mixed with special strawberry syrup. Creamy, sweet, and served in our signature jar.</span>
+                            </p>
+                        </div>
+                        <div class="menu-footer">
+                            <span class="menu-price">฿35</span>
+                            <span class="menu-tag">
+                                <span class="lang-th">ขายดีที่สุด</span>
+                                <span class="lang-en">Best Seller</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 7: Milo Toast -->
+                <div class="menu-card" data-category="toasts">
+                    <div class="menu-img-box">
+                        <img src="./เมนูร้าน/493540617_2527023530970327_8570458719034524791_n.jpg" alt="ขนมปังปิ้งเนยนมโรยผงไมโล" class="menu-img">
+                        <div class="menu-img-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+                    <div class="menu-info">
+                        <div>
+                            <h4 class="menu-name">
+                                <span class="lang-th">ขนมปังปิ้งเนยนมโรยผงไมโล</span>
+                                <span class="lang-en">Milo Toast</span>
+                            </h4>
+                            <p class="menu-desc">
+                                <span class="lang-th">ขนมปังปิ้งเตาถ่านราดเนยนมข้นหวานฉ่ำๆ โรยผงไมโลพูนๆ ได้ความกรอบมันและรสสัมผัสไมโลจัดเต็ม</span>
+                                <span class="lang-en">Butter-condensed milk charcoal toast topped with rich Milo powder for extra crunch.</span>
+                            </p>
+                        </div>
+                        <div class="menu-footer">
+                            <span class="menu-price">฿30</span>
+                            <span class="menu-tag">
+                                <span class="lang-th">ยอดฮิต</span>
+                                <span class="lang-en">Hit Menu</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Vibe Section -->
+    <section class="vibe section-padding" id="vibe">
+        <div class="container">
+            <div class="text-center">
+                <span class="badge">
+                    <span class="lang-th">เก็บบรรยากาศ</span>
+                    <span class="lang-en">SHOP VIBES</span>
+                </span>
+                <h2 class="section-title">
+                    <span class="lang-th">บรรยากาศ <span>น่ารักอบอุ่น</span></span>
+                    <span class="lang-en">Cozy <span>Atmosphere</span></span>
+                </h2>
+                <p class="section-subtitle">
+                    <span class="lang-th">ร้านนมสดเล็กๆ แต่อัดแน่นไปด้วยความอบอุ่นและเป็นกันเอง แวะมาสัมผัสฟีลร้านนมสุดน่ารัก นั่งทานเพลินๆ กันได้เลย!</span>
+                    <span class="lang-en">A small milk cafe filled with warmth and friendliness. Stop by to enjoy our cute vibe and delicious treats!</span>
+                </p>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Vibe 1 -->
+                <div class="gallery-item">
+                    <img src="./บรรยากาศในร้าน/461514505_2344750892530926_8616067714999523478_n.jpg" alt="บรรยากาศหน้าร้านยามค่ำคืนสุดอบอุ่น" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-title">
+                            <span class="lang-th">บรรยากาศหน้าร้านยามค่ำคืนสุดอบอุ่น ✨</span>
+                            <span class="lang-en">Cozy storefront atmosphere at night ✨</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vibe 2 -->
+                <div class="gallery-item">
+                    <img src="./บรรยากาศในร้าน/492518988_2527277434278270_2006123765050258299_n.jpg" alt="ดีเทลดอกไม้และไฟประดับหน้าร้าน" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-title">
+                            <span class="lang-th">ดีเทลดอกไม้และไฟประดับหน้าร้าน 🌸</span>
+                            <span class="lang-en">Pretty flower details and fairy lights 🌸</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vibe 3 -->
+                <div class="gallery-item">
+                    <img src="./บรรยากาศในร้าน/492549908_2527277360944944_1235157329857653281_n.jpg" alt="กลุ่มเพื่อนสังสรรค์เฮฮาหลังเลิกเรียน" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-title">
+                            <span class="lang-th">กลุ่มเพื่อนสังสรรค์เฮฮาหลังเลิกเรียน 👥</span>
+                            <span class="lang-en">Friends hanging out together after school 👥</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vibe 4 -->
+                <div class="gallery-item">
+                    <img src="./บรรยากาศในร้าน/493940943_2527267730945907_8741123150059989016_n.jpg" alt="หน้าร้านพร้อมป้ายเมนูแนะนำหน้าร้าน" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-title">
+                            <span class="lang-th">หน้าร้านพร้อมป้ายเมนูแนะนำหน้าร้าน 🏡</span>
+                            <span class="lang-en">Storefront with our blackboard menu sign 🏡</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vibe 5 -->
+                <div class="gallery-item">
+                    <img src="./บรรยากาศในร้าน/494147542_2529628654043148_5498278050551664507_n.jpg" alt="ดีเทลแก้วนมน่ารักและขนมทานเล่นในร้าน" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-title">
+                            <span class="lang-th">ดีเทลแก้วนมน่ารักและขนมทานเล่นในร้าน 🍫</span>
+                            <span class="lang-en">Cute milk cup details and treats inside the shop 🍫</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Info -->
+                <div class="footer-info">
+                    <img src="./logo.png" alt="MJmilk Logo" class="footer-logo">
+                    <p class="footer-desc">
+                        <span class="lang-th">คาเฟ่นมสดแท้ 100% และปังปิ้งเตาถ่านโบราณ แหล่งรวมความอร่อยหวานละมุนยามเย็นของคนทุกวัย สะอาด ใส่ใจ บริการเป็นกันเอง</span>
+                        <span class="lang-en">100% Real fresh milk café and charcoal toasts. A sweet spot for everyone. Clean, caring, and friendly service.</span>
+                    </p>
+                    <div class="footer-socials">
+                        <a href="https://web.facebook.com/premnomsod" target="_blank" rel="noopener noreferrer" class="social-link fb" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link ig" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-link tiktok" aria-label="TikTok">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Hours -->
+                <div>
+                    <h4 class="footer-title">
+                        <span class="lang-th">เวลาเปิด-ปิดร้าน</span>
+                        <span class="lang-en">Opening Hours</span>
+                    </h4>
+                    
+                    <div class="footer-links-list">
+                        <div class="footer-hours-row">
+                            <span>
+                                <span class="lang-th">วันจันทร์</span>
+                                <span class="lang-en">Monday</span>
+                            </span>
+                            <span>
+                                <span class="lang-th">16:00 - 23:00 น.</span>
+                                <span class="lang-en">4:00 PM - 11:00 PM</span>
+                            </span>
+                        </div>
+                        <div class="footer-hours-row">
+                            <span>
+                                <span class="lang-th">วันอังคาร</span>
+                                <span class="lang-en">Tuesday</span>
+                            </span>
+                            <span>
+                                <span class="lang-th">16:00 - 23:00 น.</span>
+                                <span class="lang-en">4:00 PM - 11:00 PM</span>
+                            </span>
+                        </div>
+                        <div class="footer-hours-row">
+                            <span>
+                                <span class="lang-th">วันพุธ</span>
+                                <span class="lang-en">Wednesday</span>
+                            </span>
+                            <span>
+                                <span class="lang-th">16:00 - 23:00 น.</span>
+                                <span class="lang-en">4:00 PM - 11:00 PM</span>
+                            </span>
+                        </div>
+                        <div class="footer-hours-row">
+                            <span>
+                                <span class="lang-th">วันพฤหัสบดี</span>
+                                <span class="lang-en">Thursday</span>
+                            </span>
+                            <span>
+                                <span class="lang-th">16:00 - 23:00 น.</span>
+                                <span class="lang-en">4:00 PM - 11:00 PM</span>
+                            </span>
+                        </div>
+                        <div class="footer-hours-row">
+                            <span>
+                                <span class="lang-th">วันศุกร์</span>
+                                <span class="lang-en">Friday</span>
+                            </span>
+                            <span>
+                                <span class="lang-th">16:00 - 23:30 น.</span>
+                                <span class="lang-en">4:00 PM - 11:30 PM</span>
+                            </span>
+                        </div>
+                        <div class="footer-hours-row">
+                            <span>
+                                <span class="lang-th">วันเสาร์ - อาทิตย์</span>
+                                <span class="lang-en">Saturday - Sunday</span>
+                            </span>
+                            <span>
+                                <span class="lang-th">16:00 - 23:30 น.</span>
+                                <span class="lang-en">4:00 PM - 11:30 PM</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Column 3: Location / Map -->
+                <div>
+                    <h4 class="footer-title">
+                        <span class="lang-th">พิกัดร้านของเรา</span>
+                        <span class="lang-en">Our Location</span>
+                    </h4>
+                    <p class="footer-desc" style="margin-bottom: 12px;">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="lang-th">ถนนสายหลักตัวเมือง (ตรงข้ามธนาคารกสิกรไทย) ต.ในเมือง อ.เมือง จ.นครราชสีมา</span>
+                        <span class="lang-en">Main City Road (Opposite Kasikorn Bank), Nai Mueang, Mueang District, Nakhon Ratchasima</span>
+                    </p>
+                    <div class="footer-map-container">
+                        <!-- Mock Map Embed for display -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.241517409228!2d102.09633631536762!3d14.97547798956488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31194ca3c8b74681%3A0x6b2b73bc36696b02!2z4LiB4Lij4Liw4LiB4Liy4Lij4LmD4LiI4LiB4Liy4Lij4LiB4Liy4Lij4Lil4Liy4LiZ4LmA4LiU4Li04LiZ4LiY4Liy4LiZ4Liy!5e0!3m2!2sth!2sth!4v1655650000000!5m2!2sth!2sth" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 MJmilk Café. All Rights Reserved.</p>
+                <div class="delivery-reiterate">
+                    <a href="https://grab.com" target="_blank" rel="noopener noreferrer" class="delivery-reiterate-btn grab">
+                        <img src="./logo.png" alt="Grab" style="display:none;"><span>Grab</span>
+                    </a>
+                    <a href="https://lineman.line.me" target="_blank" rel="noopener noreferrer" class="delivery-reiterate-btn lineman">
+                        <span>LINE MAN</span>
+                    </a>
+                    <a href="https://www.robinhood.in.th" target="_blank" rel="noopener noreferrer" class="delivery-reiterate-btn robinhood">
+                        <span>Robinhood</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">&times;</button>
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Floating Facebook Messenger Button -->
+    <a href="https://web.facebook.com/premnomsod" target="_blank" rel="noopener noreferrer" class="floating-fb" aria-label="Chat on Facebook Messenger">
+        <i class="fa-brands fa-facebook-messenger"></i>
+    </a>
+
+    <!-- Script File -->
+    <script src="app.js"></script>
+</body>
+</html>
